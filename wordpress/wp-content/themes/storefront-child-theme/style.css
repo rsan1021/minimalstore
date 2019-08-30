@@ -21,6 +21,29 @@ FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
 Images License: GNU General Public License v2 or later
 */
 /*
- * Add your own custom css below this text.
+ * DISPLAY NONE
  */
  
+.woocommerce-breadcrumb a:first-of-type::before{
+  display: none;
+ }
+
+.storefront-sorting{
+  display: none;
+}
+.site-info a {
+  display: none;
+}
+.woocommerce-loop-product__title{
+  display: none;
+}
+.woocommerce-loop-product__title,
+.woocommerce-LoopProduct-link .woocommerce-Price-amount,
+.woocommerce-LoopProduct-link .onsale,
+.site-main ul.products li.product .add_to_cart_button{
+  display: none;
+}
+
+.woocommerce-tabs{
+  display: none;
+}

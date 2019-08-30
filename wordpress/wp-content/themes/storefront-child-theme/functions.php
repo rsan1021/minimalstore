@@ -19,3 +19,10 @@ function sf_child_theme_dequeue_style() {
 /**
  * Note: DO NOT! alter or remove the code above this text and only add your custom PHP functions below this text.
  */
+
+add_filter( 'loop_shop_per_page', 'bbloomer_redefine_products_per_page', 9999 );
+ 
+function bbloomer_redefine_products_per_page( $per_page ) {
+  $per_page = 999;
+  return $per_page;
+}
